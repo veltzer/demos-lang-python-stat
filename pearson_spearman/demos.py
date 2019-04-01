@@ -1,7 +1,6 @@
 # This example is taken from:
 # https://machinelearningmastery.com/how-to-use-correlation-to-understand-the-relationship-between-variables
 
-# generate related variables
 from numpy import mean
 from numpy import std
 from numpy.random import randn
