@@ -1,0 +1,2 @@
+https://wesmckinney.com/book/numpy-basics
+https://github.com/wesm/pydata-book
