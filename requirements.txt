@@ -27,6 +27,8 @@ Mako==1.3.8
 MarkupSafe==3.0.2
 matplotlib==3.9.3
 mccabe==0.7.0
+mypy==1.14.1
+mypy-extensions==1.0.0
 numpy==2.1.3
 packaging==24.2
 pandas==2.2.3
@@ -67,6 +69,7 @@ termcolor==2.5.0
 tomlkit==0.13.2
 tqdm==4.67.1
 types-requests==2.32.0.20241016
+typing_extensions==4.12.2
 tzdata==2024.2
 Unidecode==1.3.8
 urllib3==2.2.3
