@@ -1,12 +1,10 @@
 # THIS IS AN AUTO-GENERATED FILE. DO NOT EDIT!
-numpy
 matplotlib
-scipy
-pymakehelper
-pydmt
-pyclassifiers
+mypy
+numpy
 pycmdtools
 pydmt
 pylint
-flake8
-mypy
+pymakehelper
+ruff
+scipy
