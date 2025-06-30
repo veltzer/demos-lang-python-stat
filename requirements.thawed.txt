@@ -3,6 +3,7 @@ hatch
 matplotlib
 mypy
 numpy
+pyclassifiers
 pycmdtools
 pydmt
 pylint
