@@ -3,14 +3,10 @@ This example is taken from:
 https://machinelearningmastery.com/how-to-use-correlation-to-understand-the-relationship-between-variables
 """
 
-from numpy import mean
-from numpy import std
-from numpy.random import randn
-from numpy.random import seed
-from numpy import cov
 from matplotlib import pyplot
-from scipy.stats import pearsonr
-from scipy.stats import spearmanr
+from numpy import cov, mean, std
+from numpy.random import randn, seed
+from scipy.stats import pearsonr, spearmanr
 
 # seed random number generator
 seed(1)
