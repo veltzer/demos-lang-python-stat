@@ -5,7 +5,7 @@
 
 description: Demos for statistics in the python language
 
-project website: https://veltzer.github.io/demos-lang-python-stat
+project website: <https://veltzer.github.io/demos-lang-python-stat>
 
 author: Mark Veltzer
 
