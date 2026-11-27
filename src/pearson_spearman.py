@@ -14,7 +14,7 @@ rng = np.random.default_rng(1)
 # prepare data
 data1 = 20 * rng.standard_normal(1000) + 100
 data2 = data1 + (10 * rng.standard_normal(1000) + 50)
-# data2 = 10 * rng.standard_normal(1000) + 50
+# data2 = 10 * rng.standard_normal(1000) + 50  # noqa: ERA001  teaching: kept in the comment for the reader
 
 # summarize
 print(f"data1: mean={mean(data1)} stdv={std(data1)}")
@@ -36,6 +36,6 @@ print(f"Pearsons correlation: {corr}")
 
 # calculate spearman's correlation
 # Spearman's correlation coefficient =
-# covariance(rank(X), rank(Y)) / (stdv(rank(X)) * stdv(rank(Y)))
+# covariance(rank(X), rank(Y)) / (stdv(rank(X)) * stdv(rank(Y)))  # noqa: ERA001  teaching: kept in the comment for the reader
 corr, _ = spearmanr(data1, data2)
 print(f"Spearmans correlation: {corr}")
